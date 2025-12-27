@@ -1,0 +1,153 @@
+.img{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+body{
+    background-color: black;
+}
+.search{
+    border-color: gray;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: arial;
+    padding-right: 230px;
+    border-radius: 20px;
+    color: gray;
+    background-color: black;
+    border-width: thin;
+    display: block;
+    flex: 1;
+    margin-left: 100px;
+    padding-left: 10px;
+    max-width: 400px;
+    width: 0;
+}
+.para{
+    color: white;
+    font-family: Arial;
+    width: 300px;
+    position: relative;
+    bottom: 10px;
+    vertical-align: top;
+    
+}
+.para2{
+    color: gray;
+    font-size: 14px;
+    font-family: Arial;
+    width: 300px;
+    position: relative;
+    bottom: 20px;
+}
+.para3{
+    color: gray;
+    font-family: arial;
+    font-size: 14px;
+    position: relative;
+    bottom: 30px;
+
+}
+.divide{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.divides{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channel-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+.image{
+    width: 40px;
+    border-radius: 50px;
+}
+.thimnail-row{
+    margin-bottom: 10px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+.header{
+    height: 46px;
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.left-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.right-section{
+    width: 200px;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.hamburger{
+    width: 40px;
+    margin-right: 20px;
+}
+.you{
+    width: 150px;
+}
+.voice{
+    width: 30px;
+    margin-right: 70px;
+}
+.noti{
+    width: 30px;
+
+}
+.create{
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: lightgray;
+    border:  none;
+    border-style: solid;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    bottom: 13px;
+}
+.dekiru{
+    width: 40px;
+    height: 36px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+    
+}
