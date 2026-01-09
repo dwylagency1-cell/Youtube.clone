@@ -213,4 +213,35 @@ body{
     background-color: rgb(41, 41, 41);
     
 }
+.home{
+    width: 30px;
+    height: 30px;
+
+}
+.sidebar-link div{
+    color: white;
+    font-family: arial;
+    font-size: 10px;
+    margin-top: 5px;
+
+}
+.tool-tip{
+    color: white;
+    position: absolute;
+    background-color: gray;
+    left: 0px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    bottom: -40px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.voice-button:hover .tool-tip{
+    opacity: 1;
+}
 

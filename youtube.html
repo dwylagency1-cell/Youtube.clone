@@ -15,17 +15,22 @@ padding-left: 60px;">
 
         </div>
         <input class="search" type="text" placeholder="Search">
-        <button style="background-color: black;
-            border-style: solid;">
+        <button class="voice-button" style="background-color: black;
+            border-style: solid;
+            margin-left: 5px;
+            position: relative;">
             <img class="voice" src="icon/whitevoice.png">
+            <div class="tool-tip">Search with your voice</div>
         </button>
         
     
         
-        <button style="background-color: black;
+        <button class="voice-button" style="background-color: black;
+        position: relative;
         border-style: solid;">
         <div style="position: relative;">
             <img class="noti" src="icon/whitenotification.png">
+            <div class="tool-tip">notification</div>
             <div class="count">3</div>
         </div>
             
@@ -38,12 +43,27 @@ padding-left: 60px;">
 
     <div class="sidebar">
         
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
-        <div class="sidebar-link"></div>
+        <div style="display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;" class="sidebar-link">
+            <img class="home" src="icon/home.png">
+            <div>Home</div>
+        </div>
+        <div style="display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;" class="sidebar-link">
+            <img class="home" src="icon/youtube-shorts-white-icon.webp">
+            <div>Shorts</div>
+        </div>
+       <div style="display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;" class="sidebar-link">
+            <img class="home" src="icon/Contacts.png">
+            <div>Profile</div>
+        </div>
     </div>
     
 
