@@ -206,4 +206,11 @@ body{
     border-color: black;
     border-width: thick;
 }
+.sidebar-link{
+    height: 76px;
+}
+.sidebar-link:hover{
+    background-color: rgb(41, 41, 41);
+    
+}
 
